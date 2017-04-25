@@ -29,6 +29,20 @@
                 text-decoration: underline;
                 
             }
+            
+            #first-section {
+            
+                color:blue;
+                background-color:pink;
+                width:100px;
+                
+            }
+            
+            #second-section {
+            
+                background-color:yellow;
+                
+            }
 
         </style>
     
@@ -36,13 +50,21 @@
     
     <body>
     
-        <p class="red large">The quick brown fox jumped of the lazy dog.</p>
+        <div id="first-section">
+    
+            <p>The quick brown fox jumped of the lazy dog.</p>
+            
+            <p>Wow, I love internal CSS!</p>
         
-        <p class="large">Wow, I love internal CSS!</p>
+        </div>
         
-        <p id="green">This is some more text. <span class="underlined">And this text is underlined.</span></p>
-        
-        <h1 class="red">CSS is cool!</h1>
+        <div id="second-section">
+            
+            <p id="green">This is some more text. <span class="underlined">And this text is underlined.</span></p>
+            
+            <h1 class="red">CSS is cool!</h1>
+            
+        </div>
         
     </body>
 </html>
