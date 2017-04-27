@@ -6,84 +6,58 @@
         
         <style type="text/css">
         
-            .red {
+            .bold {
             
-                color:red;
+                font-weight: bold;
                 
             }
             
-            .large {
+            .italic {
             
-                font-size:200%;
+                font-style: italic;
                 
             }
-            
-            #green {
-            
-                color: green;
-                
-            }
-            
+
             .underlined {
             
                 text-decoration: underline;
                 
             }
-            
-            #first-section {
-            
-                color:blue;
-                background-color:#81F7D8;
-                width:200px;
-                margin-left:100px;
-                
-            }
-            
-            #second-section {
-            
-                background-color:yellow;
-                width:400px;
-                padding:5px 10px 15px 20px;
-                
-            }
-            
-            body {
-            
-                margin:0;
-                padding:0;
-                
-            }
 
-            p {
+            a {
             
-                margin:0;
-                padding:0;
+                text-decoration: none;
+                
+            }
+            
+            a:hover {
+            
+                text-decoration: underline;
+                color:green;
+                
+            }
+            
+            .big {
+            
+                font-size: 200%
                 
             }            
-
+            
         </style>
     
     </head>
     
     <body>
     
-        <div id="first-section">
-    
-            <p>The quick brown fox jumped of the lazy dog.</p>
-            
-            <p>Wow, I love internal CSS!</p>
+        <p class="bold">This is some bold text!</p>
         
-        </div>
+        <p class="italic">This is some italic text! <span class="bold">And this is bold and italic.</span></p>
+
+        <p class="underlined">This text is underlined!</p>
         
-        <div id="second-section">
-            
-            <p id="green">This is some more text. <span class="underlined">And this text is underlined.</span></p>
-            
-            <h1 class="red">CSS is cool!</h1>
-            
-        </div>
+        <a href="">This is a link.</a>
         
-        <p>This paragraph is not floated!</p>
+        <p class="big">This text is BIG!</p>        
         
     </body>
 </html>
